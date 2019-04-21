@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="Log-out"
+    android:id="@+id/logoutid"
+    />
+    <item
+        android:title="Become A Volunteer"
+        android:id="@+id/volunteeropt"
+        />
+</menu>

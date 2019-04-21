@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b1d4e5"
+    android:orientation="vertical"
+
+    tools:context=".FactsActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="Love Food Hate Waste!"
+        android:gravity="center"
+        android:textStyle="italic"
+
+        android:textColor="#000000"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/facts"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:textColor="#52565e"
+            android:layout_margin="7dp"
+            android:text=" 1 INDIANS waste as much food as the whole of United Kingdom consumes."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="#52565e"
+            android:layout_margin="7dp"
+            android:text="2 Weddings, canteens, hotels, social and family functions, households spew out so much food."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#52565e"
+            android:textSize="22dp"
+            android:layout_margin="7dp"
+            android:text="3  According to the United Nations Development Programme, up to 40% of the food produced in India is wasted."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#52565e"
+            android:textStyle="bold"
+            android:layout_margin="7dp"
+            android:text="4 About 21 million tonnes of wheat are wasted in India and 50% of all food across the world meets the same fate and never reaches the needy."/>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="22dp"
+             android:textColor="#52565e"
+             android:textStyle="bold"
+             android:layout_margin="7dp"
+             android:text="5 India ranks 63 among 88 countries in Global Hunger Index."/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="22dp"
+              android:textColor="#52565e"
+              android:textStyle="bold"
+              android:layout_margin="7dp"
+              android:text="6 According to Hindustan Times, around 67 million tonnes of food is wasted in India every year, which has a value of around Rs 92,000 crore. And it's enough to feed all of Bihar for a year."/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="22dp"
+              android:textColor="#52565e"
+              android:textStyle="bold"
+              android:layout_margin="7dp"
+              android:text="7  According to a survey done by Bhook (an organization working towards reducing hunger) in 2013, around 20 crore Indians sleep hungry on any given night."/>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="75dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                app:cardElevation="20dp"
+                app:cardCornerRadius="19dp"
+                android:layout_marginTop="7dp"
+                android:id="@+id/proceedid">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Proceed!"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
